@@ -1,5 +1,5 @@
 
-.container{
+.container-fluid{
 	margin: 0;
 	padding: 0;
 }
@@ -9,13 +9,13 @@
 	background-color: rgba(0,0,0,0.8);
 }
 
-.navbar-brandlogo{
+.navbar-brand{
   font-size: 35px;
   color: white;
   padding-left: 25px;
 }
 
-.navbar-brandlogo:hover{
+.navbar-brand:hover{
 	color: white;
 }
 
@@ -36,15 +36,15 @@
 	margin-right: 25px;
 }
 
-.icon{
+.icon-bar{
 	background-color: white;
 }
 
 
-.title{
+.main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: orangered;
+  color: #ff4532;
   font-size: 50px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
@@ -55,7 +55,7 @@ li{
 	width: 100%;
 }
 
-.menu{
+.menu-item{
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -76,7 +76,7 @@ li{
 	margin: 20px;
 }
 
-.box{
+.content-box{
 	margin: 20px;
 	width: auto;
 	height: auto;
@@ -86,8 +86,12 @@ li{
 	padding: 20px;
 }
 
-.item{
+.item-name{
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+#top{
+
 }
